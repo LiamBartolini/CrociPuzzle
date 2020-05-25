@@ -31,7 +31,7 @@ namespace Bartolini.Liam._3H.CrociPuzzle
             Console.WriteLine("Cruci puzzle Bartolini Liam 3H");
 
             //scrivo le parole da cercare
-            string[] parole = new string[] { "NEANCHE", "MAI", "TROPPO", "OGGI", "CERTAMENTE", "FORSE", "STAMANE", "DAVANTI", "BENE"};
+            string[] parole = new string[] { "NEANCHE", "MAI", "TROPPO", "OGGI", "CERTAMENTE", "FORSE", "STAMANE", "DAVANTI", "BENE", "YF", "XG"};
 
             //scolpisco la matrice con le parole nascoste
             char[,] puzzle =
@@ -118,7 +118,7 @@ namespace Bartolini.Liam._3H.CrociPuzzle
             MatriceInizializzata(matrice);
 
             contP = 0;
-            while (contP != 10)
+            while (contP != p.Length)
             {
                 for (int riga = 0; riga < 10; riga++)
                 {
