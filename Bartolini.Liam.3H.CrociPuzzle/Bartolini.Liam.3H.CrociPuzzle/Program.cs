@@ -215,8 +215,8 @@ namespace Bartolini.Liam._3H.CrociPuzzle
                                 matrice[i, tmpC] = '1';
                         }
                     }
-                    contP++;
                 }
+                contP++;
             }
             //StampaMatrice(matrice);
             return matrice;
